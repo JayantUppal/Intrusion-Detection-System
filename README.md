@@ -1,4 +1,5 @@
-# Intrusion-Detection-System
+# Intrusion Detection System
+
 Due to the advancement in technology and digitization of information, there has been an increase in network data traffic. This also brings in the scope of increased network attacks and poses a threat to computer systems and data. The vulnerabilities in network security seem to increase in direct proportion with the use of the internet. Intrusion Detection Systems prove to be an effective method to detect unauthorized access and attacks in a network and safeguard it from intruders. In this project, we use the [KDD dataset](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html) to develop an intrusion detection system using machine learning algorithms and ensemble techniques. The dataset is first preprocessed to obtain clean and non-redundant data which is then tested against an ensemble model involving three classifiers namely Gaussian Naive Bayes, Decision Tree, and XGBoost.
 
 The goal is to build an IDS to classify attacks as malicious or normal connections. Here is the entire implementation in four steps:- 
@@ -18,27 +19,27 @@ ranges and resolutions, most of which cannot be processed by a pattern classific
 ### Exploratory data analysis (EDA)
 EDA involves visualizing a dataset to summarize the main characteristics using statistical graphics and other data visualization methods. This provides a deeper understanding of the dataset to extract impartial experiments.
 
-### Building Classifiers:
-#### Decision Tree
-A decision tree is very much popular as a single classifier because
-of its simplicity and easier implementation. It is a classification model that uses a
-tree-like structure to perform a decision and is commonly used in operation
-research and intrusion detection because it gives better performance compared to
-other algorithms.
+### Building Classifiers
+  #### Decision Tree
+  A decision tree is very much popular as a single classifier because
+  of its simplicity and easier implementation. It is a classification model that uses a
+  tree-like structure to perform a decision and is commonly used in operation
+  research and intrusion detection because it gives better performance compared to
+  other algorithms.
 
-#### Gaussian Naive Bayes
-Gaussian Naive Bayes is a variant of Naive Bayes that
-follows Gaussian normal distribution and supports continuous data. Naive Bayes
-is a group of supervised machine learning classification algorithms based on the
-Bayes theorem. It produces good results in the classification where there exist
-simpler relations.
+  #### Gaussian Naive Bayes
+  Gaussian Naive Bayes is a variant of Naive Bayes that
+  follows Gaussian normal distribution and supports continuous data. Naive Bayes
+  is a group of supervised machine learning classification algorithms based on the
+  Bayes theorem. It produces good results in the classification where there exist
+  simpler relations.
 
-#### XGBoost
-eXtreme gradient boosting (XGBoost) is a boosting technique that is a
-part of the ensemble-based approach. A sequential decision tree is constructed,
-which is also called a sequential ensemble technique. This method provides a
-result that contains bias that is low and high invariance because the model has a
-10better ability to fit the training data.
+  #### XGBoost
+  eXtreme gradient boosting (XGBoost) is a boosting technique that is a
+  part of the ensemble-based approach. A sequential decision tree is constructed,
+  which is also called a sequential ensemble technique. This method provides a
+  result that contains bias that is low and high invariance because the model has a
+  10better ability to fit the training data.
 
 ### Classification using ensemble techniques
 Classification of the network traffic data as
