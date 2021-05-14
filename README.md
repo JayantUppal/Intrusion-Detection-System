@@ -21,41 +21,20 @@ EDA involves visualizing a dataset to summarize the main characteristics using s
 
 ### Building Classifiers
   #### Decision Tree
-  A decision tree is very much popular as a single classifier because
-  of its simplicity and easier implementation. It is a classification model that uses a
-  tree-like structure to perform a decision and is commonly used in operation
-  research and intrusion detection because it gives better performance compared to
-  other algorithms.
+  A decision tree is very much popular as a single classifier because   of its simplicity and easier implementation. It is a classification model that uses a  tree-like structure to perform a decision and is commonly used in operation research and intrusion detection because it gives better performance compared to   other algorithms.
 
   #### Gaussian Naive Bayes
-  Gaussian Naive Bayes is a variant of Naive Bayes that
-  follows Gaussian normal distribution and supports continuous data. Naive Bayes
-  is a group of supervised machine learning classification algorithms based on the
-  Bayes theorem. It produces good results in the classification where there exist
-  simpler relations.
+  Gaussian Naive Bayes is a variant of Naive Bayes that follows Gaussian normal distribution and supports continuous data. Naive Bayes is a group of supervised machine learning classification algorithms based on the Bayes theorem. It produces good results in the classification where there exist simpler relations.
 
   #### XGBoost
-  eXtreme gradient boosting (XGBoost) is a boosting technique that is a
-  part of the ensemble-based approach. A sequential decision tree is constructed,
-  which is also called a sequential ensemble technique. This method provides a
-  result that contains bias that is low and high invariance because the model has a
-  10better ability to fit the training data.
+  eXtreme gradient boosting (XGBoost) is a boosting technique that is a part of the ensemble-based approach. A sequential decision tree is constructed, which is also called a sequential ensemble technique. This method provides a result that contains bias that is low and high invariance because the model has a better ability to fit the training data.
 
 ### Classification using ensemble techniques
-Classification of the network traffic data as
-normal or malicious using Ensemble Learning is a method that combines multiple
-learners to solve the specific problems to improve the accuracy of classifiers. We will
-use the max voting method that is generally used for classification problems. In this
-technique, multiple models are used to make predictions for each data point. The
-predictions by each model are considered as a ‘vote’. The predictions which we get from
-the majority of the models are used as the final prediction.
+Classification of the network traffic data as normal or malicious using Ensemble Learning is a method that combines multiple learners to solve the specific problems to improve the accuracy of classifiers. We will use the max voting method that is generally used for classification problems. In this technique, multiple models are used to make predictions for each data point. The predictions by each model are considered as a ‘vote’. The predictions which we get from the majority of the models are used as the final prediction.
 
 # Results
-The results show that an ensemble of Gaussian Naive Bayes + Decision
-Tree + XGBoost with proper preprocessing activities on KDD 1999 Cup Dataset will
-produce enhanced and more efficient IDS performance with low false positives. Also, the
-results show that it is possible to have a single and powerful classifier as the XGBoost
-classifier gives almost equally efficient results as the ensemble model.
+The results show that an ensemble of Gaussian Naive Bayes + Decision Tree + XGBoost with proper preprocessing activities on KDD 1999 Cup Dataset will
+produce enhanced and more efficient IDS performance with low false positives. Also, the results show that it is possible to have a single and powerful classifier as the XGBoost classifier gives almost equally efficient results as the ensemble model.
 
 ![Results](https://user-images.githubusercontent.com/47852407/118238271-ed679180-b4b5-11eb-893c-f818fdd33655.png)
 
@@ -67,7 +46,7 @@ $ pip install virtualenv
 $ virtualenv ids-env
 $ source ids-env/bin/activate
 ```
-- Clone this repo
+- Clone this repository
 ```
 $ git clone https://github.com/JayantUppal/Intrusion-Detection-System.git
 $ cd Intrusion-Detection-System/
